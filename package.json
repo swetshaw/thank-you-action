@@ -1,0 +1,23 @@
+{
+  "name": "thank-you-action",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "ncc build src/action.js -o dist",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/swetshaw/thank-you-action.git"
+  },
+  "author": "Sweta Shaw",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/swetshaw/thank-you-action/issues"
+  },
+  "homepage": "https://github.com/swetshaw/thank-you-action#readme",
+  "dependencies": {
+    "@vercel/ncc": "^0.34.0"
+  }
+}
